@@ -1,0 +1,13 @@
+{
+  "name": "marp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "preview": "marp slide/slide.md --theme theme/slide.css --html --allow-local-files --output output/slide.html --preview",
+    "pptx": "marp slide/slide.md --theme theme/slide.css --html --allow-local-files --output output/slide.pptx --pptx",
+    "pdf": "marp slide/slide.md --theme theme/slide.css --html --allow-local-files --output output/slide.pdf --pdf"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.1"
+  }
+}
