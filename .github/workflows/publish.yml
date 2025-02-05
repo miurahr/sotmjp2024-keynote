@@ -18,12 +18,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
       - name: Convert Markdown into HTML and PDF
-        uses: ./slide
-        with:
-          config-file: ./slide/.marprc.yml
-
+        uses: KoharaKazuya/marp-cli-action@v4
       - name: Uploade artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -38,7 +34,6 @@ jobs:
     permissions:
       pages: write
       id-token: write
-
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
