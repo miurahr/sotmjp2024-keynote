@@ -18,8 +18,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Convert Markdown into HTML and PDF
-        uses: KoharaKazuya/marp-cli-action@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - name: Generate presentation
+        script: |
+          npm install
+          npm run html
       - name: Uploade artifact
         uses: actions/upload-pages-artifact@v3
         with:
