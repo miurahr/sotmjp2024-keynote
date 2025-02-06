@@ -45,8 +45,6 @@ style: |
 
 ---
 
-![bg right:30% 60%](images/slide-qr.png)
-
 ## 目次
 1. 週刊OSMとは？
 2. 2024年の代表的な記事
@@ -151,7 +149,6 @@ style: |
 - **記事の投稿・編集にぜひ参加してください！**
 - **質問や感想をお聞かせください！**
 - slide: https://miurahr.github.io/sotmjp2024-keynote/
-- **weeklyOSM**: https://weeklyosm.eu/
 - Mastodon: @miurahr
 
 
