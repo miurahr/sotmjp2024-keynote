@@ -15,10 +15,10 @@ style: |
             url(images/osm-background.png);
     background-position:
             right 30px top 30px,
-            top left;
+            bottom right;
     background-size:
             200px 100px,
-            1980px;
+            1366px;
     background-repeat: no-repeat;
   }
 
@@ -72,12 +72,12 @@ style: |
 ### 週刊OSMは10周年
 - **742号（2024年10月）**
 - 2014年10月7日、多言語版の第一号発行
-- 
+ 
 ---
 
 ### State of the Map 2024の模様
 - **739号（2024年9月）**  SotM 2024の集合写真
-- ![集合写真](https://weeklyosm.eu/wp-content/uploads/2024/09/739_all.jpg)
+- ![集合写真](images/739_all.jpg)
 
 ---
 
@@ -87,6 +87,12 @@ style: |
   - 「OSMは無料で世界地図を作るプロジェクトへと成長」
 - **リチャード・フェアハーストの回想**
   - 「2024年ではOSMを始めるのは難しかったかも」
+
+---
+
+### 日本の活動紹介
+- **723号(2024年6月)** OSM福島
+- ![YouTube Capture](images/723_T_all.png)
 
 ---
 
@@ -127,6 +133,8 @@ style: |
 ### レビューと公開条件
 - 翻訳後、複数名でレビュー＆推敲
 - 証跡としてレビューコメントを記録
+![editor image](images/osmbc-editor-image.png)
+
 ---
 
 <!-- スライド11: 結論 -->
@@ -135,7 +143,7 @@ style: |
 
 - **週刊OSMはOSMの重要な情報源**
 - **多言語での編集は、コミュニティの協力で成り立つ**
-- **OSMERS FukushimaのYouTube配信**で週刊OSMを楽しもう
+- **OSM福島の配信**で週刊OSMを楽しもう
   - [チャンネルはこちら](https://www.youtube.com/@osmersfukushima4411)
 
 ---
@@ -147,10 +155,8 @@ style: |
 ## ありがとうございました！
 
 - **記事の投稿・編集にぜひ参加してください！**
-- **質問や感想をお聞かせください！**
 - slide: https://miurahr.github.io/sotmjp2024-keynote/
 - Mastodon: @miurahr
-
 
 ---
 
