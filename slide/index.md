@@ -4,11 +4,31 @@ title: "週刊OSM(WeeklyOSM)編集の裏側"
 institute: "State of the Map Japan 2024"
 author: "三浦広志"
 date: "2025-02-15"
-theme: ./theme/slide.css
 paginate: true
+theme: gaia_gd_noncode
+header: 'Inside of WeeklyOSM'
+footer: '2025.2.15, State of the Map Japan 2024'
+style: |
+  section {
+    background-image:
+            url(images/Logo_weeklyOSM.svg),
+            url(images/osm-background.png);
+    background-position:
+            right 30px top 30px,
+            top left;
+    background-size:
+            200px 100px,
+            1980px;
+    background-repeat: no-repeat;
+  }
+
 ---
 
 <!-- スライド1: タイトル -->
+<!-- _class: gaia lead -->
+<!-- _paginate: false -->
+<!-- _header: '' -->
+<!-- _footer: '' -->
 
 ![bg right:40% 80%](images/Logo_weeklyOSM.svg)
 
@@ -25,6 +45,8 @@ paginate: true
 
 ---
 
+![bg right:30% 60%](images/slide-qr.png)
+
 ## 目次
 1. 週刊OSMとは？
 2. 2024年の代表的な記事
@@ -36,6 +58,7 @@ paginate: true
 
 <!-- スライド5: 週刊OSMの目的 -->
 
+![bg right:30% 60%](images/weeklyosm-qr.png)
 ## 週刊OSMとは？
 - **OSMの最新ニュースを提供**
 - 経験者から初心者まで**すべてのOSMメンバー向け**
@@ -74,7 +97,8 @@ paginate: true
 ### 情報収集
 - OSMBC（Webベースの編集プラットフォーム）を使用
 - 記事のタレコミ: [投稿ページ](https://weeklyosm.eu/ja/this-news-should-be-in-weeklyosm)
-- 参考情報: OSM日記、Mastodon、BlueSky、Note、Zenn
+- リンクは 週刊OSMページの右上にあります
+- 使えるURLの例: OSM日記 Mastodon BlueSky Note Zenn
 
 ---
 
@@ -120,14 +144,15 @@ paginate: true
 
 <!-- スライド12: 連絡先 -->
 
+![bg right:30% 60%](images/slide-qr.png)
+
 ## ありがとうございました！
 
 - **記事の投稿・編集にぜひ参加してください！**
-
-**質問や感想をお聞かせください！**
-
+- **質問や感想をお聞かせください！**
+- slide: https://miurahr.github.io/sotmjp2024-keynote/
 - **weeklyOSM**: https://weeklyosm.eu/
-  - Mastodon: @miurahr
+- Mastodon: @miurahr
 
 
 ---
