@@ -1,5 +1,14 @@
-@import 'uncover';
+@import 'gaia';
 
 section {
-    background-color: lightblue;
+    background-image:
+            url(../images/Logo_weeklyOSM.svg),
+            url(../images/osm-background.png);
+    background-position:
+            right 30px top 30px,
+            top left;
+    background-size:
+            100px 30px,
+            1980px;
+    background-repeat: no-repeat;
 }

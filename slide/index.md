@@ -1,140 +1,136 @@
 ---
 marp: true
-title: "weeklyOSM編集の裏側"
+title: "週刊OSM(WeeklyOSM)編集の裏側"
+institute: "State of the Map Japan 2024"
 author: "三浦広志"
 date: "2025-02-15"
-institute: "State of the Map Japan 2024"
-theme: gaia
+theme: ./theme/slide.css
+paginate: true
 ---
 
 <!-- スライド1: タイトル -->
 
 ![bg right:40% 80%](images/Logo_weeklyOSM.svg)
 
-# weeklyOSM編集の裏側
+# 週刊OSM編集の裏側
 ## State of the Map Japan 2024
 ### 三浦広志
 
 ---
 
-<!-- スライド3: OpenStreetMapとは -->
-
-# OpenStreetMapとは
-
-- **オープンな地図データ**を提供するプロジェクト
-- 2004年に**スティーブ・コースト**により設立
-- **商業地図とは異なり**、オープンソースの原則に基づく
-- **誰でも編集・利用が可能**
-- **災害支援や発展途上国の地図整備**にも貢献
-- GISやアプリケーション開発に活用
+## 著者略歴
+- 2007年に日本で最初にOpenStreetMapの普及活動を開始
+- プロフェッショナル向け翻訳ツールOmegaTのリード開発者
+- 週刊OSMの編集者として活動
 
 ---
 
-<!-- スライド4: 講演者について -->
-
-# 講演者について
-
-- **三浦広志**
-    - 一般社団法人 OSMF Japan 代表理事
-    - 2007年から日本でOSMの普及活動を開始
-    - **翻訳ツールOmegaTのリード開発者**
-    - 2022年よりweeklyOSMの編集・翻訳に参加
+## 目次
+1. 週刊OSMとは？
+2. 2024年の代表的な記事
+3. 週刊OSMの編集プロセス
+4. 翻訳作業の裏側
+5. まとめ & OSMへの貢献方法
 
 ---
 
 <!-- スライド5: 週刊OSMの目的 -->
 
-# 週刊OSMの目的
-
+## 週刊OSMとは？
 - **OSMの最新ニュースを提供**
 - 経験者から初心者まで**すべてのOSMメンバー向け**
-- **ボランティアによる多言語発信**
+- 多言語で提供（翻訳者の協力が必須）
+- 組織や企業から独立
 - **年間52号 (休みなし) の発行**
-- 週刊OSM: https://weeklyosm.eu/
+- [最新号はこちら](https://weeklyosm.eu/)
 
 ---
 
-<!-- スライド6: 講演の流れ-->
+## 2024年の代表的な記事
 
-# 週刊OSMのからOpenStreetMapの動向を振り返る
+### 週刊OSMは10周年
+- **742号（2024年10月）**
+- 2014年10月7日、多言語版の第一号発行
+- 
+---
 
-- エポック的な記事
-- **今週の画像**
-- 編集プロセスを紹介
-- 記事になる情報とならない情報とは
+### State of the Map 2024の模様
+- **739号（2024年9月）**  SotM 2024の集合写真
+- ![集合写真](https://weeklyosm.eu/wp-content/uploads/2024/09/739_all.jpg)
 
 ---
 
-<!-- スライド7: 取り上げる記事 -->
-
-# WeeklyOSMの記事ハイライト
-
-1. **TomTomがOSM20周年を祝うビデオ公開**
-2. **Organic Mapsの4周年**
-3. **週刊OSMが10周年を迎える**
-4. **ハザードマップゲーム「守れ！サイガイ防衛隊」**
-5. **OSM20周年記念記事の紹介**
+### OSM20周年記念記事
+- **734号（2024年8月）**
+- **Steve Coastのメッセージ**
+  - 「OSMは無料で世界地図を作るプロジェクトへと成長」
+- **リチャード・フェアハーストの回想**
+  - 「2024年ではOSMを始めるのは難しかったかも」
 
 ---
 
-<!-- スライド8: 取り上げる画像 -->
+## 週刊OSMの編集プロセス
 
-# 印象的な冒頭写真
-
-![State of the Map 2024 集合写真](https://weeklyosm.eu/wp-content/uploads/2024/09/739_all.jpg)
-
-- 2024年9月発行の週刊OSM 739号の「今週の画像」
-- **アフリカ・ナイロビで開催されたSotM 2024の集合写真**
-- **世界中のOSMメンバーが一堂に会する貴重な場**
+### 情報収集
+- OSMBC（Webベースの編集プラットフォーム）を使用
+- 記事のタレコミ: [投稿ページ](https://weeklyosm.eu/ja/this-news-should-be-in-weeklyosm)
+- 参考情報: OSM日記、Mastodon、BlueSky、Note、Zenn
 
 ---
 
-<!-- スライド9: 記事の編集について -->
-
-# 記事の編集について
-
-- **OSMBC (OpenStreetMap Blog Compiler) を使用**
-- **読者や編集者がニュースを投稿**
-- **編集者が英語で記事を作成**
-- **翻訳者が多言語へ翻訳**
-- **毎週日曜日に公開**
+### 記事編集
+- 英語で記事作成
+- AI生成記事や広告目的の偽情報をチェック
+- 公開情報（ログイン不要）へのリンク必須
 
 ---
 
-<!-- スライド10: 記事の編集プロセス図 -->
+## 翻訳作業の裏側
 
-# 記事の編集プロセス
+### 翻訳の流れ
+- 月～金: 記事収集
+- 金～日: 翻訳・推敲
+- 公開: 日曜夕方（欧州時間）
 
-<div class="mermaid">
-graph TD;
-  A[ニュースの投稿] -->|OSMBCに登録| B[編集者が英語記事を作成];
-  B -->|各国翻訳者が翻訳| C[多言語版記事の作成];
-  C -->|推敲と修正| D[最終記事の確定];
-  D -->|日曜日に公開| E[週刊OSM発行];
-</div>
+---
 
+### 使用ツール
+- **DeepL, NICT TexTra, Microsoft Azure**（機械翻訳）
+- **OmegaT**（翻訳プロ向けツール）
+  - Markdown形式で翻訳
+  - [翻訳データ管理](https://codeberg.org/miurahr/osmweekly-ja-omegat)
+
+---
+
+### レビューと公開条件
+- 翻訳後、複数名でレビュー＆推敲
+- 証跡としてレビューコメントを記録
 ---
 
 <!-- スライド11: 結論 -->
 
-# 結論
+## まとめ & WeeklyOSMへの貢献方法
 
 - **週刊OSMはOSMの重要な情報源**
 - **多言語での編集は、コミュニティの協力で成り立つ**
-- **OpenStreetMapの成長と共に、週刊OSMも発展**
-- **記事の投稿・編集にぜひ参加してください！**
+- **OSMERS FukushimaのYouTube配信**で週刊OSMを楽しもう
+  - [チャンネルはこちら](https://www.youtube.com/@osmersfukushima4411)
 
 ---
 
 <!-- スライド12: 連絡先 -->
 
-# 連絡先
+## ありがとうございました！
+
+- **記事の投稿・編集にぜひ参加してください！**
+
+**質問や感想をお聞かせください！**
 
 - **weeklyOSM**: https://weeklyosm.eu/
-- **OSMF Japan**: https://www.osmf.jp/
-- **三浦広志**
-    - Email: info@osmf.jp
-    - Twitter: @miurahr
+  - Mastodon: @miurahr
+
+
+---
 
 <!-- Add this anywhere in your Markdown file -->
 <script type="module">
