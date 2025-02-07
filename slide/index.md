@@ -38,23 +38,26 @@ style: |
 
 ---
 
-## 著者略歴
+## 目次
+1. 講演者紹介
+2. 週刊OSMとは？
+3. 2024年の代表的な記事
+4. 週刊OSMの裏側
+5. 記事の編集と公開プロセス
+6. まとめ
+
+---
+
+<!-- 講演者紹介 -->
+
+**略歴**
 - 2007年に日本で最初にOpenStreetMapの普及活動を開始
 - プロフェッショナル向け翻訳ツールOmegaTのリード開発者
 - 週刊OSMの編集者として活動
 
 ---
 
-## 目次
-1. 週刊OSMとは？
-2. 2024年の代表的な記事
-3. 週刊OSMの編集プロセス
-4. 翻訳作業の裏側
-5. まとめ & OSMへの貢献方法
-
----
-
-<!-- スライド5: 週刊OSMの目的 -->
+<!-- 週刊OSMの目的 -->
 
 ![bg right:30% 60%](images/weeklyosm-qr.png)
 ## 週刊OSMとは？
@@ -76,87 +79,99 @@ style: |
 ---
 
 ### State of the Map 2024の模様
-- **739号（2024年9月）**  SotM 2024の集合写真
-- ![集合写真](images/739_all.jpg)
+- **739号（2024年9月）** では、 SotM 2024の集合写真
+- ![40%](images/739_crop.jpg)
 
 ---
 
 ### OSM20周年記念記事
-- **734号（2024年8月）**
-- **Steve Coastのメッセージ**
-  - 「OSMは無料で世界地図を作るプロジェクトへと成長」
-- **リチャード・フェアハーストの回想**
-  - 「2024年ではOSMを始めるのは難しかったかも」
+- **734号（2024年8月）** **Steve Coastのメッセージ**を紹介
+- 「OSMは20年間の旅を振り返り、大胆なアイデアから、無料で世界地図を作成するグローバルなボランティア主導のプロジェクトへと成長したと語りました。」
+
+---
+
+### 創設は2004年、Google Maps開始前
+
+黎明期のふりかえりが記事になりました.
+
+- "リチャード・フェアハースト氏は、OpenStreetMapの黎明期を振り返り、2024年にOSMを始めることはできなかっただろうと指摘しました。"
+
+---
+
+### リチャード・フェアハーストの回想
+
+- "プロジェクトの初期段階で、Googleによって潰されたり、RedditやHacker Newsユーザーの「なぜまだ良くないのか」という記事が立ったり、プライバシーをめぐる論争や国境紛争で炎上したりしたことでしょう"
 
 ---
 
 ### 日本の活動紹介
 - **723号(2024年6月)** OSM福島
-- ![YouTube Capture](images/723_T_all.png)
+- ![60%](images/723_T_all.png)
 
 ---
 
-## 週刊OSMの編集プロセス
+## 週刊OSMの裏側
 
 ### 情報収集
-- OSMBC（Webベースの編集プラットフォーム）を使用
-- 記事のタレコミ: [投稿ページ](https://weeklyosm.eu/ja/this-news-should-be-in-weeklyosm)
-- リンクは 週刊OSMページの右上にあります
-- 使えるURLの例: OSM日記 Mastodon BlueSky Note Zenn
+- OSMBCというブログ編集ツールに似た Webベースの編集プラットフォームを使用。
+- ブログやニュース、www.openstreetmap.orgの日記機能を参照。
+- トピック投稿ページ: [週刊OSMへのトピック投稿リンク](https://weeklyosm.eu/ja/th‘Ｒis-news-should-be-in-weeklyosm)
 
 ---
 
-### 記事編集
-- 英語で記事作成
-- AI生成記事や広告目的の偽情報をチェック
-- 公開情報（ログイン不要）へのリンク必須
+### 記事の編集作業
+
+- 編集者が集められたリンク先情報をもとにニュース原稿を作成。
+- 記事を理解し、偽記事ではないか、をチェック。
+- 公開された情報のみをリンク。
 
 ---
 
-## 翻訳作業の裏側
+### 記事の翻訳作業
 
-### 翻訳の流れ
-- 月～金: 記事収集
-- 金～日: 翻訳・推敲
-- 公開: 日曜夕方（欧州時間）
-
----
-
-### 使用ツール
-- **DeepL, NICT TexTra, Microsoft Azure**（機械翻訳）
-- **OmegaT**（翻訳プロ向けツール）
-  - Markdown形式で翻訳
-  - [翻訳データ管理](https://codeberg.org/miurahr/osmweekly-ja-omegat)
+- 各国の翻訳者が記事を翻訳。
+- 月曜から金曜に情報収集、土曜から日曜に推敲と翻訳。
+- 翻訳には、 **DeepL, NICT TexTra, Microsoft Azure** の機械翻訳サービスを使用。
 
 ---
 
-### レビューと公開条件
-- 翻訳後、複数名でレビュー＆推敲
-- 証跡としてレビューコメントを記録
-![editor image](images/osmbc-editor-image.png)
+### わたしの翻訳方法
+
+- **OmegaT**（翻訳プロ向けツール）を使用
+- Markdown形式で翻訳し、OSMBCに反映
+- [翻訳プロジェクト](https://codeberg.org/miurahr/osmweekly-ja-omegat)を公開で実施。
+- 用語集や過去の対訳のDBを公開しているので、参加者はすぐに翻訳にはいれる。
+
+---
+
+### 作業イメージ
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8WFXLxX-Dqo?si=3q7UHBDaVn5DCKoe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+### 記事の公開条件
+- 複数名でのレビューと推敲が必須。
+![50%](images/osmbc-editor-image.png)
+
+---
+
+### 週刊OSMのチーム
+
+- ![center](images/team-structure.svg)
 
 ---
 
 <!-- スライド11: 結論 -->
 
-## まとめ & WeeklyOSMへの貢献方法
+## まとめ
 
 - **週刊OSMはOSMの重要な情報源**
 - **多言語での編集は、コミュニティの協力で成り立つ**
-- **OSM福島の配信**で週刊OSMを楽しもう
-  - [チャンネルはこちら](https://www.youtube.com/@osmersfukushima4411)
-
----
-
-<!-- スライド12: 連絡先 -->
+- **記事の投稿・編集にぜひ参加してください！**
 
 ![bg right:30% 60%](images/slide-qr.png)
-
-## ありがとうございました！
-
-- **記事の投稿・編集にぜひ参加してください！**
 - slide: https://miurahr.github.io/sotmjp2024-keynote/
-- Mastodon: @miurahr
 
 ---
 
