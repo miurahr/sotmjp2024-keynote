@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "html": "marp slide/index.md --theme slide/theme/slide.css --html --allow-local-files",
-    "preview": "marp slide/index.md --theme slide/theme/slide.css --html --allow-local-files --preview",
-    "pptx": "marp slide/index.md --theme slide/theme/slide.css --html --allow-local-files --pptx --editable-pptx",
-    "pdf": "marp slide/index.md --theme slide/theme/slide.css --html --allow-local-files --pdf"
+    "html": "marp --html --allow-local-files slide/index.md",
+    "pptx": "marp --html --allow-local-files slide/index.md --pptx --editable-pptx",
+    "pdf": "marp --html --allow-local-files slide/index.md --pdf"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^4.1.1"

@@ -30,7 +30,7 @@ style: |
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-![bg right:40% 80%](images/Logo_weeklyOSM.svg)
+![bg right:40% 30%](images/sotmjapan-logo.png)
 
 # 週刊OSM編集の裏側
 ## State of the Map Japan 2024
@@ -50,18 +50,25 @@ style: |
 
 <!-- 講演者紹介 -->
 
+![bg right:40% 50%](images/self-stand.jpg)
+
 **略歴**
-- 2007年に日本で最初にOpenStreetMapの普及活動を開始
-- プロフェッショナル向け翻訳ツールOmegaTのリード開発者
-- 週刊OSMの編集者として活動
+* 2007年OpenStreetMapを日本に紹介
+* フリーのプロ用翻訳ツールOmegaTのリード開発者
+* Wikiや週刊OSMの編集活動
+* 一社)オープンストリートマップ ファウンデーション ジャパン 代表理事
+* NTTDATAとIOWN Global Forumで、IOWNを推進
+* LinkedIn(@miurahr)
 
 ---
 
 <!-- 週刊OSMの目的 -->
 
 ![bg right:30% 60%](images/weeklyosm-qr.png)
+
 ## 週刊OSMとは？
-- **OSMの最新ニュースを提供**
+
+**OSMの最新ニュースを提供**
 - 経験者から初心者まで**すべてのOSMメンバー向け**
 - 多言語で提供（翻訳者の協力が必須）
 - 組織や企業から独立
@@ -71,6 +78,8 @@ style: |
 ---
 
 ## 2024年の代表的な記事
+
+![bg right:30% 80%](images/10y_weeklyOSM_jp.png)
 
 ### 週刊OSMは10周年
 - **742号（2024年10月）**
@@ -84,9 +93,13 @@ style: |
 
 ---
 
+![bg right:30% 50%](images/steave-essay-qr.png)
+
 ### OSM20周年記念記事
-- **734号（2024年8月）** **Steve Coastのメッセージ**を紹介
-- 「OSMは20年間の旅を振り返り、大胆なアイデアから、無料で世界地図を作成するグローバルなボランティア主導のプロジェクトへと成長したと語りました。」
+- **734号（2024年8月）** **Steve CoastのEssay**を紹介
+- "The Days are Long but the Years are Short  OpenStreetMap at 20"
+- 「20年間の旅を振り返り、大胆なアイデアから、無料で世界地図を作成するグローバルなボランティア主導のプロジェクトへと成長したと語りました。」
+- https://blog.openstreetmap.org/2024/08/09/openstreetmap-at-20/
 
 ---
 
@@ -95,38 +108,26 @@ style: |
 黎明期のふりかえりが記事になりました.
 
 - "リチャード・フェアハースト氏は、OpenStreetMapの黎明期を振り返り、2024年にOSMを始めることはできなかっただろうと指摘しました。"
-
----
-
-### リチャード・フェアハーストの回想
-
 - "プロジェクトの初期段階で、Googleによって潰されたり、RedditやHacker Newsユーザーの「なぜまだ良くないのか」という記事が立ったり、プライバシーをめぐる論争や国境紛争で炎上したりしたことでしょう"
 
 ---
 
-### 日本の活動紹介
+### 今週の画像で日本の活動も紹介
+
 - **723号(2024年6月)** OSM福島
 - ![60%](images/723_T_all.png)
 
 ---
 
-## 週刊OSMの裏側
-
-### 情報収集
-- OSMBCというブログ編集ツールに似た Webベースの編集プラットフォームを使用。
-- ブログやニュース、www.openstreetmap.orgの日記機能を参照。
-- トピック投稿ページ: [週刊OSMへのトピック投稿リンク](https://weeklyosm.eu/ja/th‘Ｒis-news-should-be-in-weeklyosm)
+# 週刊OSMの裏側
 
 ---
 
-### 記事の編集作業
+-![center](images/news-collection.svg)
+- [トピック投稿リンク](https://weeklyosm.eu/ja/th‘Ｒis-news-should-be-in-weeklyosm)
 
-- 編集者が集められたリンク先情報をもとにニュース原稿を作成。
-- 記事を理解し、偽記事ではないか、をチェック。
-- 公開された情報のみをリンク。
 
 ---
-## 効率的な記事の作成
 
 -![center](images/way-to-build-news.svg)
 
@@ -142,12 +143,6 @@ style: |
 ### 作業イメージ
 
 <iframe src="https://player.vimeo.com/video/1054512440?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="800" height="443" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="osmbc-demo-2025-02-07_11.54.39"></iframe>
-
----
-
-### 記事の公開条件
-- 複数名でのレビューと推敲が必須。
-![50%](images/osmbc-editor-image.png)
 
 ---
 
@@ -168,10 +163,7 @@ style: |
 ![bg right:30% 60%](images/slide-qr.png)
 - slide: https://miurahr.github.io/sotmjp2024-keynote/
 
----
-
-!-- Add this anywhere in your Markdown file -->
-<<script src="https://player.vimeo.com/api/player.js"></script>
+<script src="https://player.vimeo.com/api/player.js"></script>
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
