@@ -5,7 +5,7 @@
   "scripts": {
     "html": "marp slide/index.md --theme slide/theme/slide.css --html --allow-local-files",
     "preview": "marp slide/index.md --theme slide/theme/slide.css --html --allow-local-files --preview",
-    "pptx": "marp slide/index.md --theme slide/theme/slide.css --html --allow-local-files --pptx",
+    "pptx": "marp slide/index.md --theme slide/theme/slide.css --html --allow-local-files --pptx --editable-pptx",
     "pdf": "marp slide/index.md --theme slide/theme/slide.css --html --allow-local-files --pdf"
   },
   "devDependencies": {

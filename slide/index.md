@@ -126,21 +126,16 @@ style: |
 - 公開された情報のみをリンク。
 
 ---
+## 効率的な記事の作成
 
-### 記事の翻訳作業
-
-- 各国の翻訳者が記事を翻訳。
-- 月曜から金曜に情報収集、土曜から日曜に推敲と翻訳。
-- 翻訳には、 **DeepL, NICT TexTra, Microsoft Azure** の機械翻訳サービスを使用。
+-![center](images/way-to-build-news.svg)
 
 ---
 
 ### わたしの翻訳方法
 
 - **OmegaT**（翻訳プロ向けツール）を使用
-- Markdown形式で翻訳し、OSMBCに反映
-- [翻訳プロジェクト](https://codeberg.org/miurahr/osmweekly-ja-omegat)を公開で実施。
-- 用語集や過去の対訳のDBを公開しているので、参加者はすぐに翻訳にはいれる。
+- ![center](images/translation-way.svg)
 
 ---
 
