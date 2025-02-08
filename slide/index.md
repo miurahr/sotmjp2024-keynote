@@ -146,7 +146,7 @@ style: |
 
 ### 作業イメージ
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8WFXLxX-Dqo?si=3q7UHBDaVn5DCKoe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/1054512440?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="800" height="443" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="osmbc-demo-2025-02-07_11.54.39"></iframe>
 
 ---
 
@@ -175,7 +175,8 @@ style: |
 
 ---
 
-<!-- Add this anywhere in your Markdown file -->
+!-- Add this anywhere in your Markdown file -->
+<<script src="https://player.vimeo.com/api/player.js"></script>
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
