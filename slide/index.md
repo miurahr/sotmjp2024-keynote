@@ -53,12 +53,13 @@ style: |
 ![bg right:40% 50%](images/self-stand.jpg)
 
 **略歴**
+- 三浦広志
 * 2007年OpenStreetMapを日本に紹介
 * フリーのプロ用翻訳ツールOmegaTのリード開発者
 * Wikiや週刊OSMの編集活動
 * 一社)オープンストリートマップ ファウンデーション ジャパン 代表理事
-* NTTDATAとIOWN Global Forumで、IOWNを推進
-* LinkedIn(@miurahr)
+- NTTDATAでIOWNを推進、OSMFJ賛助会員企業として参加
+- LinkedIn(@miurahr)
 
 ---
 
@@ -70,10 +71,17 @@ style: |
 
 **OSMの最新ニュースを提供**
 - 経験者から初心者まで**すべてのOSMメンバー向け**
-- 多言語で提供（翻訳者の協力が必須）
+- 14言語で提供（翻訳者の協力が必須）
 - 組織や企業から独立
 - **年間52号 (休みなし) の発行**
-- [最新号はこちら](https://weeklyosm.eu/)
+
+---
+
+![bg right:30% 60%](images/weeklyosm-qr.png)
+
+## [週刊OSM最新号](https://weeklyosm.eu/)
+
+- https://weeklyosm.eu/
 
 ---
 
