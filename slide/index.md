@@ -32,7 +32,8 @@ style: |
 
 ![bg right:40% 30%](images/sotmjapan-logo.png)
 
-# 週刊OSM編集の裏側
+基調講演
+# WeeklyOSM編集の裏側
 ## State of the Map Japan 2024
 ### 三浦広志
 
